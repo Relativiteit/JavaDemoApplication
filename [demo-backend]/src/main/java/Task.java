@@ -7,6 +7,7 @@
 
 
 public class Task {
+
 private String title;
 private int id;
 private Boolean isComplete;

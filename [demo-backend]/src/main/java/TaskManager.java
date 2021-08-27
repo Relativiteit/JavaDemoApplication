@@ -18,10 +18,13 @@ public class TaskManager {
         var task = new Task("first one", 1, true, false, false) ;
         var task2 = new Task("second one", 1, true, false, false) ;
 
+        var person = new Person(40, "Binu", "Badarudeen", );
+
         System.out.println(task);
 
         LinkedList<Task> fullList = new LinkedList<Task>();
         fullList.add(task);
+        fullList.add(task2);
         System.out.println("The chose one => " + fullList);
 
     }
