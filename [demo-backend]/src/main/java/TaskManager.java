@@ -19,6 +19,9 @@ public class TaskManager {
         var task2 = new Task("second one", 1, true, false, false) ;
 
         var person = new Person(40, "Binu", "Badarudeen", true);
+
+        var qualogy = new Team();
+
         System.out.println(person);
 
         System.out.println(task);
