@@ -18,7 +18,8 @@ public class TaskManager {
         var task = new Task("first one", 1, true, false, false) ;
         var task2 = new Task("second one", 1, true, false, false) ;
 
-        var person = new Person(40, "Binu", "Badarudeen", );
+        var person = new Person(40, "Binu", "Badarudeen", true);
+        System.out.println(person);
 
         System.out.println(task);
 

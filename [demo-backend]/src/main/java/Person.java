@@ -42,7 +42,20 @@ public class Person {
         return isCool;
     }
 
+    @Override
+    public String toString() {
+        return "Person{" +
+                "age=" + age +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", isCool=" + isCool +
+                '}';
+    }
+
     public void setCool(Boolean cool) {
         isCool = cool;
+
+
+
     }
 }
